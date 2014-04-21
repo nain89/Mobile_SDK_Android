@@ -45,16 +45,6 @@ public class MainActivity extends Activity {
 		b.putString("Currency", "MYR");
 		b.putString("Country", "MY");
 		b.putFloat("Amount", 1.1f);
-
-		b.putString("BillName", "Tan Ah Kow");
-		b.putString("BillDesc", "Purchase of 5 units of nasi lemak kits");
-		b.putString("BillMobile", "+6012-2337889");
-		b.putString("BillEmail", "ahkow_t@gmail.com");
-		b.putString("Channel", "");
-		b.putString("Currency", "MYR");
-		b.putString("Country", "MY");
-		b.putFloat("Amount", 1.6f);
-		b.putInt("filter", 0);
 		 
 		intent.putExtras(b);
 		startActivityForResult(intent, REQUEST_CODE);
