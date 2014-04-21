@@ -1,5 +1,5 @@
-MOLPaySDK-4.0-Android
-=====================
+MOLPay Mobile SDK 4.0 for Android
+=================================
 
 MOLPaySDK 4.0 Android Version
 
