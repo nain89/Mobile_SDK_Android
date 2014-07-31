@@ -1,11 +1,15 @@
-MOLPay Mobile SDK 4.0.3 for Android
+MOLPay Mobile SDK 4.0.4 for Android
 =================================
 
-Latest updates on 2014/06/30
+Latest updates on 2014/07/31
 
 - Bug fixes
 
-Latest updates on 2014/05/23
+Updates on 2014/06/30
+
+- Bug fixes
+
+Updates on 2014/05/23
 
 - Payment By Cash support
 
