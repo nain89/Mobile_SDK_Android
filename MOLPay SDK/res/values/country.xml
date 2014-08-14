@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="c">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia, Plurinational State Of</item>
+        <item>Bosnia And Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Myanmar</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Congo, The Democratic Republic Of The" code="cd" phoneCode="243" </item>
+        <item>Cook Islands" code="ck" phoneCode="682" </item>
+        <item>Costa Rica" code="cr" phoneCode="506" </item>
+        <item>Croatia" code="hr" phoneCode="385" </item>
+        <item>Cuba" code="cu" phoneCode="53" </item>
+        <item>Cyprus" code="cy" phoneCode="357" </item>
+        <item>Czech Republic" code="cz" phoneCode="420" </item>
+        <item>Denmark" code="dk" phoneCode="45" </item>
+        <item>Djibouti" code="dj" phoneCode="253" </item>
+        <item>Timor-leste" code="tl" phoneCode="670" </item>
+        <item>Ecuador" code="ec" phoneCode="593" </item>
+        <item>Egypt" code="eg" phoneCode="20" </item>
+        <item>El Salvador" code="sv" phoneCode="503" </item>
+        <item>Equatorial Guinea" code="gq" phoneCode="240" </item>
+        <item>Eritrea" code="er" phoneCode="291" </item>
+        <item>Estonia" code="ee" phoneCode="372" </item>
+        <item>Ethiopia" code="et" phoneCode="251" </item>
+        <item>Falkland Islands (malvinas)" code="fk" phoneCode="500" </item>
+        <item>Faroe Islands" code="fo" phoneCode="298" </item>
+        <item>Fiji" code="fj" phoneCode="679" </item>
+        <item>Finland" code="fi" phoneCode="358" </item>
+        <item>France" code="fr" phoneCode="33" </item>
+        <item>French Polynesia" code="pf" phoneCode="689" </item>
+        <item>Gabon" code="ga" phoneCode="241" </item>
+        <item>Gambia" code="gm" phoneCode="220" </item>
+        <item>Georgia" code="ge" phoneCode="995" </item>
+        <item>Germany" code="de" phoneCode="49" </item>
+        <item>Ghana" code="gh" phoneCode="233" </item>
+        <item>Gibraltar" code="gi" phoneCode="350" </item>
+        <item>Greece" code="gr" phoneCode="30" </item>
+        <item>Greenland" code="gl" phoneCode="299" </item>
+        <item>Guatemala" code="gt" phoneCode="502" </item>
+        <item>Guinea" code="gn" phoneCode="224" </item>
+        <item>Guinea-bissau" code="gw" phoneCode="245" </item>
+        <item>Guyana" code="gy" phoneCode="592" </item>
+        <item>Haiti" code="ht" phoneCode="509" </item>
+        <item>Honduras" code="hn" phoneCode="504" </item>
+        <item>Hong Kong" code="hk" phoneCode="852" </item>
+        <item>Hungary" code="hu" phoneCode="36" </item>
+        <item>India" code="in" phoneCode="91" </item>
+        <item>Indonesia" code="id" phoneCode="62" </item>
+        <item>Iran, Islamic Republic Of" code="ir" phoneCode="98" </item>
+        <item>Iraq" code="iq" phoneCode="964" </item>
+        <item>Ireland" code="ie" phoneCode="353" </item>
+        <item>Isle Of Man" code="im" phoneCode="44" </item>
+        <item>Israel" code="il" phoneCode="972" </item>
+        <item>Italy" code="it" phoneCode="39" </item>
+        <item>Côte Divoire" code="ci" phoneCode="225" </item>
+        <item>Japan" code="jp" phoneCode="81" </item>
+        <item>Jordan" code="jo" phoneCode="962" </item>
+        <item>Kazakhstan" code="kz" phoneCode="7" </item>
+        <item>Kenya" code="ke" phoneCode="254" </item>
+        <item>Kiribati" code="ki" phoneCode="686" </item>
+        <item>Kuwait" code="kw" phoneCode="965" </item>
+        <item>Kyrgyzstan" code="kg" phoneCode="996" </item>
+        <item>Lao Peoples Democratic Republic" code="la" phoneCode="856" </item>
+        <item>Latvia" code="lv" phoneCode="371" </item>
+        <item>Lebanon" code="lb" phoneCode="961" </item>
+        <item>Lesotho" code="ls" phoneCode="266" </item>
+        <item>Liberia" code="lr" phoneCode="231" </item>
+        <item>Libya" code="ly" phoneCode="218" </item>
+        <item>Liechtenstein" code="li" phoneCode="423" </item>
+        <item>Lithuania" code="lt" phoneCode="370" </item>
+        <item>Luxembourg" code="lu" phoneCode="352" </item>
+        <item>Macao" code="mo" phoneCode="853" </item>
+        <item>Macedonia, The Former Yugoslav Republic Of" code="mk" phoneCode="389" </item>
+        <item>Madagascar" code="mg" phoneCode="261" </item>
+        <item>Malawi" code="mw" phoneCode="265" </item>
+        <item>Malaysia" code="my" phoneCode="60" </item>
+        <item>Maldives" code="mv" phoneCode="960" </item>
+        <item>Mali" code="ml" phoneCode="223" </item>
+        <item>Malta" code="mt" phoneCode="356" </item>
+        <item>Marshall Islands" code="mh" phoneCode="692" </item>
+        <item>Mauritania" code="mr" phoneCode="222" </item>
+        <item>Mauritius" code="mu" phoneCode="230" </item>
+        <item>Mayotte" code="yt" phoneCode="262" </item>
+        <item>Mexico" code="mx" phoneCode="52" </item>
+        <item>Micronesia, Federated States Of" code="fm" phoneCode="691" </item>
+        <item>Moldova, Republic Of" code="md" phoneCode="373" </item>
+        <item>Monaco" code="mc" phoneCode="377" </item>
+        <item>Mongolia" code="mn" phoneCode="976" </item>
+        <item>Montenegro" code="me" phoneCode="382" </item>
+        <item>Morocco" code="ma" phoneCode="212" </item>
+        <item>Mozambique" code="mz" phoneCode="258" </item>
+        <item>Namibia" code="na" phoneCode="264" </item>
+        <item>Nauru" code="nr" phoneCode="674" </item>
+        <item>Nepal" code="np" phoneCode="977" </item>
+        <item>Netherlands" code="nl" phoneCode="31" </item>
+        <item>New Caledonia" code="nc" phoneCode="687" </item>
+        <item>New Zealand" code="nz" phoneCode="64" </item>
+        <item>Nicaragua" code="ni" phoneCode="505" </item>
+        <item>Niger" code="ne" phoneCode="227" </item>
+        <item>Nigeria" code="ng" phoneCode="234" </item>
+        <item>Niue" code="nu" phoneCode="683" </item>
+        <item>Korea, Democratic Peoples Republic Of" code="kp" phoneCode="850" </item>
+        <item>Norway" code="no" phoneCode="47" </item>
+        <item>Oman" code="om" phoneCode="968" </item>
+        <item>Pakistan" code="pk" phoneCode="92" </item>
+        <item>Palau" code="pw" phoneCode="680" </item>
+        <item>Panama" code="pa" phoneCode="507" </item>
+        <item>Papua New Guinea" code="pg" phoneCode="675" </item>
+        <item>Paraguay" code="py" phoneCode="595" </item>
+        <item>Peru" code="pe" phoneCode="51" </item>
+        <item>Philippines" code="ph" phoneCode="63" </item>
+        <item>Pitcairn" code="pn" phoneCode="870" </item>
+        <item>Poland" code="pl" phoneCode="48" </item>
+        <item>Portugal" code="pt" phoneCode="351" </item>
+        <item>Puerto Rico" code="pr" phoneCode="1" </item>
+        <item>Qatar" code="qa" phoneCode="974" </item>
+        <item>Romania" code="ro" phoneCode="40" </item>
+        <item>Russian Federation" code="ru" phoneCode="7" </item>
+        <item>Rwanda" code="rw" phoneCode="250" </item>
+        <item>Saint Barthélemy" code="bl" phoneCode="590" </item>
+        <item>Samoa" code="ws" phoneCode="685" </item>
+        <item>San Marino" code="sm" phoneCode="378" </item>
+        <item>Sao Tome And Principe" code="st" phoneCode="239" </item>
+        <item>Saudi Arabia" code="sa" phoneCode="966" </item>
+        <item>Senegal" code="sn" phoneCode="221" </item>
+        <item>Serbia" code="rs" phoneCode="381" </item>
+        <item>Seychelles" code="sc" phoneCode="248" </item>
+        <item>Sierra Leone" code="sl" phoneCode="232" </item>
+        <item>Singapore" code="sg" phoneCode="65" </item>
+        <item>Slovakia" code="sk" phoneCode="421" </item>
+        <item>Slovenia" code="si" phoneCode="386" </item>
+        <item>Solomon Islands" code="sb" phoneCode="677" </item>
+        <item>Somalia" code="so" phoneCode="252" </item>
+        <item>South Africa" code="za" phoneCode="27" </item>
+        <item>Korea, Republic Of" code="kr" phoneCode="82" </item>
+        <item>Spain" code="es" phoneCode="34" </item>
+        <item>Sri Lanka" code="lk" phoneCode="94" </item>
+        <item>Saint Helena, Ascension And Tristan Da Cunha" code="sh" phoneCode="290" </item>
+        <item>Saint Pierre And Miquelon" code="pm" phoneCode="508" </item>
+        <item>Sudan" code="sd" phoneCode="249" </item>
+        <item>Suriname" code="sr" phoneCode="597" </item>
+        <item>Swaziland" code="sz" phoneCode="268" </item>
+        <item>Sweden" code="se" phoneCode="46" </item>
+        <item>Switzerland" code="ch" phoneCode="41" </item>
+        <item>Syrian Arab Republic" code="sy" phoneCode="963" </item>
+        <item>Taiwan, Province Of China" code="tw" phoneCode="886" </item>
+        <item>Tajikistan" code="tj" phoneCode="992" </item>
+        <item>Tanzania, United Republic Of" code="tz" phoneCode="255" </item>
+        <item>Thailand" code="th" phoneCode="66" </item>
+        <item>Togo" code="tg" phoneCode="228" </item>
+        <item>Tokelau" code="tk" phoneCode="690" </item>
+        <item>Tonga" code="to" phoneCode="676" </item>
+        <item>Tunisia" code="tn" phoneCode="216" </item>
+        <item>Turkey" code="tr" phoneCode="90" </item>
+        <item>Turkmenistan" code="tm" phoneCode="993" </item>
+        <item>Tuvalu" code="tv" phoneCode="688" </item>
+        <item>United Arab Emirates" code="ae" phoneCode="971" </item>
+        <item>Uganda" code="ug" phoneCode="256" </item>
+        <item>United Kingdom" code="gb" phoneCode="44" </item>
+        <item>Ukraine" code="ua" phoneCode="380" </item>
+        <item>Uruguay" code="uy" phoneCode="598" </item>
+        <item>United States" code="us" phoneCode="1" </item>
+        <item>Uzbekistan" code="uz" phoneCode="998" </item>
+        <item>Vanuatu" code="vu" phoneCode="678" </item>
+        <item>Holy See (vatican City State)" code="va" phoneCode="39" </item>
+        <item>Venezuela, Bolivarian Republic Of" code="ve" phoneCode="58" </item>
+        <item>Viet Nam" code="vn" phoneCode="84" </item>
+        <item>Wallis And Futuna" code="wf" phoneCode="681" </item>
+        <item>Yemen" code="ye" phoneCode="967" </item>
+        <item>Zambia" code="zm" phoneCode="260" </item>
+        <item>Zimbabwe" code="zw" phoneCode="263" </item>
+     </string-array>
+
+</resources>

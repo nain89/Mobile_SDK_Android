@@ -2,6 +2,8 @@ package com.molpay.molpayexample;
 
 import java.util.Random;
 
+ 
+
 import com.molpay.molpaylib.MOLPayActivity;
 import com.molpay.molpaylib.settings.MerchantInfo;
 
@@ -42,6 +44,7 @@ public class MainActivity extends Activity {
 		b.putString("Currency", "MYR");
 		b.putString("Country", "MY");
 		b.putFloat("Amount", 1.1f);
+		b.putBoolean("debug", false);//Make this true to enable debugging
 		 
 		intent.putExtras(b);
 		startActivityForResult(intent, REQUEST_CODE);
@@ -61,7 +64,7 @@ public class MainActivity extends Activity {
 				String transaction_status = bundle
 						.getString(MerchantInfo.STATUS_CODE);
 				String error_desc = bundle.getString(MerchantInfo.ERR_DESC);
-
+                String appCode=bundle.getString(MerchantInfo.APP_CODE);
 				String Result = "the amount is " + amount + "\nthe transaction id is " + transaction_id +"\nthe error description is " + error_desc + "\nthe status is " + transaction_status;
 
 				result.setText(""+Result);

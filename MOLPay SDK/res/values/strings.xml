@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testMOL2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="image">Image</string>
+    <string name="copyright">Copyright &#169; 2014 MOLPay Sdn Bhd (a MOL Global Group Company). All rights reserved. MOLPay is  Malaysian Payment System Act 2003 compliance.</string>
+    <string name="address">B&#8211;13&#8211;3A Jalan Multimedia 7/AH CityPark, i&#8211;City, 4000, Shah Alam, Selangor, Malaysia</string>
+
+    <string-array name="payment_options">
+        <item>Payment Options</item>
+        <item>Visa / Mastercard</item>
+        <item>MEPS(FPX)</item>
+        <item>Maybank2u</item>
+        <item>Hong Leong Connect</item>
+        <item>CIMB Clicks</item>
+        <item>RHB Now</item>
+        <item>Seng Heng</item>
+        <item>SAM Singapore Post</item>
+        <item>AmOnline</item>
+        <item>WebCash</item>
+        <item>UnionPay</item>
+        <item>Allpay.com</item>
+        <item>Tenpay.com</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Country</item>
+        <item>Malaysia</item>
+        <item>Non-Malaysia</item>
+    </string-array>
+
+    <string name="agree">
+<![CDATA[
+    I hereby agree with the Terms of Service & Privacy Policy
+    ]]>
+    </string>
+    <string name="netbder">
+<![CDATA[
+    This transaction will appear as <font color="red"><b>Netbder*Netbuilder</b></font> on your credit card billing statement. <br>Notice: a <b>Reminder</b> will be sent to you 14days after this transaction date.
+    ]]>
+    </string>
+
+    <style name="HEADER_BAR">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">#d3d3d3</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="HEADER_TITLE">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="HEADER_BACK">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">"Back"</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="HEADER_DONE">
+      >                <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:text">"Next"</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    
+     <string-array name="countries">
+        <item name="Afghanistan" code="af" phoneCode="93" />
+        <item name="Albania" code="al" phoneCode="355" />
+        <item name="Algeria" code="dz" phoneCode="213" />
+        <item name="Andorra" code="ad" phoneCode="376" />
+        <item name="Angola" code="ao" phoneCode="244" />
+        <item name="Antarctica" code="aq" phoneCode="672" />
+        <item name="Argentina" code="ar" phoneCode="54" />
+        <item name="Armenia" code="am" phoneCode="374" />
+        <item name="Aruba" code="aw" phoneCode="297" />
+        <item name="Australia" code="au" phoneCode="61" />
+        <item name="Austria" code="at" phoneCode="43" />
+        <item name="Azerbaijan" code="az" phoneCode="994" />
+        <item name="Bahrain" code="bh" phoneCode="973" />
+        <item name="Bangladesh" code="bd" phoneCode="880" />
+        <item name="Belarus" code="by" phoneCode="375" />
+        <item name="Belgium" code="be" phoneCode="32" />
+        <item name="Belize" code="bz" phoneCode="501" />
+        <item name="Benin" code="bj" phoneCode="229" />
+        <item name="Bhutan" code="bt" phoneCode="975" />
+        <item name="Bolivia, Plurinational State Of" code="bo" phoneCode="591" />
+        <item name="Bosnia And Herzegovina" code="ba" phoneCode="387" />
+        <item name="Botswana" code="bw" phoneCode="267" />
+        <item name="Brazil" code="br" phoneCode="55" />
+        <item name="Brunei Darussalam" code="bn" phoneCode="673" />
+        <item name="Bulgaria" code="bg" phoneCode="359" />
+        <item name="Burkina Faso" code="bf" phoneCode="226" />
+        <item name="Myanmar" code="mm" phoneCode="95" />
+        <item name="Burundi" code="bi" phoneCode="257" />
+        <item name="Cambodia" code="kh" phoneCode="855" />
+        <item name="Cameroon" code="cm" phoneCode="237" />
+        <item name="Canada" code="ca" phoneCode="1" />
+        <item name="Cape Verde" code="cv" phoneCode="238" />
+        <item name="Central African Republic" code="cf" phoneCode="236" />
+        <item name="Chad" code="td" phoneCode="235" />
+        <item name="Chile" code="cl" phoneCode="56" />
+        <item name="China" code="cn" phoneCode="86" />
+        <item name="Christmas Island" code="cx" phoneCode="61" />
+        <item name="Cocos (keeling) Islands" code="cc" phoneCode="61" />
+        <item name="Colombia" code="co" phoneCode="57" />
+        <item name="Comoros" code="km" phoneCode="269" />
+        <item name="Congo" code="cg" phoneCode="242" />
+        <item name="Congo, The Democratic Republic Of The" code="cd" phoneCode="243" />
+        <item name="Cook Islands" code="ck" phoneCode="682" />
+        <item name="Costa Rica" code="cr" phoneCode="506" />
+        <item name="Croatia" code="hr" phoneCode="385" />
+        <item name="Cuba" code="cu" phoneCode="53" />
+        <item name="Cyprus" code="cy" phoneCode="357" />
+        <item name="Czech Republic" code="cz" phoneCode="420" />
+        <item name="Denmark" code="dk" phoneCode="45" />
+        <item name="Djibouti" code="dj" phoneCode="253" />
+        <item name="Timor-leste" code="tl" phoneCode="670" />
+        <item name="Ecuador" code="ec" phoneCode="593" />
+        <item name="Egypt" code="eg" phoneCode="20" />
+        <item name="El Salvador" code="sv" phoneCode="503" />
+        <item name="Equatorial Guinea" code="gq" phoneCode="240" />
+        <item name="Eritrea" code="er" phoneCode="291" />
+        <item name="Estonia" code="ee" phoneCode="372" />
+        <item name="Ethiopia" code="et" phoneCode="251" />
+        <item name="Falkland Islands (malvinas)" code="fk" phoneCode="500" />
+        <item name="Faroe Islands" code="fo" phoneCode="298" />
+        <item name="Fiji" code="fj" phoneCode="679" />
+        <item name="Finland" code="fi" phoneCode="358" />
+        <item name="France" code="fr" phoneCode="33" />
+        <item name="French Polynesia" code="pf" phoneCode="689" />
+        <item name="Gabon" code="ga" phoneCode="241" />
+        <item name="Gambia" code="gm" phoneCode="220" />
+        <item name="Georgia" code="ge" phoneCode="995" />
+        <item name="Germany" code="de" phoneCode="49" />
+        <item name="Ghana" code="gh" phoneCode="233" />
+        <item name="Gibraltar" code="gi" phoneCode="350" />
+        <item name="Greece" code="gr" phoneCode="30" />
+        <item name="Greenland" code="gl" phoneCode="299" />
+        <item name="Guatemala" code="gt" phoneCode="502" />
+        <item name="Guinea" code="gn" phoneCode="224" />
+        <item name="Guinea-bissau" code="gw" phoneCode="245" />
+        <item name="Guyana" code="gy" phoneCode="592" />
+        <item name="Haiti" code="ht" phoneCode="509" />
+        <item name="Honduras" code="hn" phoneCode="504" />
+        <item name="Hong Kong" code="hk" phoneCode="852" />
+        <item name="Hungary" code="hu" phoneCode="36" />
+        <item name="India" code="in" phoneCode="91" />
+        <item name="Indonesia" code="id" phoneCode="62" />
+        <item name="Iran, Islamic Republic Of" code="ir" phoneCode="98" />
+        <item name="Iraq" code="iq" phoneCode="964" />
+        <item name="Ireland" code="ie" phoneCode="353" />
+        <item name="Isle Of Man" code="im" phoneCode="44" />
+        <item name="Israel" code="il" phoneCode="972" />
+        <item name="Italy" code="it" phoneCode="39" />
+        <item name="Côte D&apos;ivoire" code="ci" phoneCode="225" />
+        <item name="Japan" code="jp" phoneCode="81" />
+        <item name="Jordan" code="jo" phoneCode="962" />
+        <item name="Kazakhstan" code="kz" phoneCode="7" />
+        <item name="Kenya" code="ke" phoneCode="254" />
+        <item name="Kiribati" code="ki" phoneCode="686" />
+        <item name="Kuwait" code="kw" phoneCode="965" />
+        <item name="Kyrgyzstan" code="kg" phoneCode="996" />
+        <item name="Lao People&apos;s Democratic Republic" code="la" phoneCode="856" />
+        <item name="Latvia" code="lv" phoneCode="371" />
+        <item name="Lebanon" code="lb" phoneCode="961" />
+        <item name="Lesotho" code="ls" phoneCode="266" />
+        <item name="Liberia" code="lr" phoneCode="231" />
+        <item name="Libya" code="ly" phoneCode="218" />
+        <item name="Liechtenstein" code="li" phoneCode="423" />
+        <item name="Lithuania" code="lt" phoneCode="370" />
+        <item name="Luxembourg" code="lu" phoneCode="352" />
+        <item name="Macao" code="mo" phoneCode="853" />
+        <item name="Macedonia, The Former Yugoslav Republic Of" code="mk" phoneCode="389" />
+        <item name="Madagascar" code="mg" phoneCode="261" />
+        <item name="Malawi" code="mw" phoneCode="265" />
+        <item name="Malaysia" code="my" phoneCode="60" />
+        <item name="Maldives" code="mv" phoneCode="960" />
+        <item name="Mali" code="ml" phoneCode="223" />
+        <item name="Malta" code="mt" phoneCode="356" />
+        <item name="Marshall Islands" code="mh" phoneCode="692" />
+        <item name="Mauritania" code="mr" phoneCode="222" />
+        <item name="Mauritius" code="mu" phoneCode="230" />
+        <item name="Mayotte" code="yt" phoneCode="262" />
+        <item name="Mexico" code="mx" phoneCode="52" />
+        <item name="Micronesia, Federated States Of" code="fm" phoneCode="691" />
+        <item name="Moldova, Republic Of" code="md" phoneCode="373" />
+        <item name="Monaco" code="mc" phoneCode="377" />
+        <item name="Mongolia" code="mn" phoneCode="976" />
+        <item name="Montenegro" code="me" phoneCode="382" />
+        <item name="Morocco" code="ma" phoneCode="212" />
+        <item name="Mozambique" code="mz" phoneCode="258" />
+        <item name="Namibia" code="na" phoneCode="264" />
+        <item name="Nauru" code="nr" phoneCode="674" />
+        <item name="Nepal" code="np" phoneCode="977" />
+        <item name="Netherlands" code="nl" phoneCode="31" />
+        <item name="New Caledonia" code="nc" phoneCode="687" />
+        <item name="New Zealand" code="nz" phoneCode="64" />
+        <item name="Nicaragua" code="ni" phoneCode="505" />
+        <item name="Niger" code="ne" phoneCode="227" />
+        <item name="Nigeria" code="ng" phoneCode="234" />
+        <item name="Niue" code="nu" phoneCode="683" />
+        <item name="Korea, Democratic People&apos;s Republic Of" code="kp" phoneCode="850" />
+        <item name="Norway" code="no" phoneCode="47" />
+        <item name="Oman" code="om" phoneCode="968" />
+        <item name="Pakistan" code="pk" phoneCode="92" />
+        <item name="Palau" code="pw" phoneCode="680" />
+        <item name="Panama" code="pa" phoneCode="507" />
+        <item name="Papua New Guinea" code="pg" phoneCode="675" />
+        <item name="Paraguay" code="py" phoneCode="595" />
+        <item name="Peru" code="pe" phoneCode="51" />
+        <item name="Philippines" code="ph" phoneCode="63" />
+        <item name="Pitcairn" code="pn" phoneCode="870" />
+        <item name="Poland" code="pl" phoneCode="48" />
+        <item name="Portugal" code="pt" phoneCode="351" />
+        <item name="Puerto Rico" code="pr" phoneCode="1" />
+        <item name="Qatar" code="qa" phoneCode="974" />
+        <item name="Romania" code="ro" phoneCode="40" />
+        <item name="Russian Federation" code="ru" phoneCode="7" />
+        <item name="Rwanda" code="rw" phoneCode="250" />
+        <item name="Saint Barthélemy" code="bl" phoneCode="590" />
+        <item name="Samoa" code="ws" phoneCode="685" />
+        <item name="San Marino" code="sm" phoneCode="378" />
+        <item name="Sao Tome And Principe" code="st" phoneCode="239" />
+        <item name="Saudi Arabia" code="sa" phoneCode="966" />
+        <item name="Senegal" code="sn" phoneCode="221" />
+        <item name="Serbia" code="rs" phoneCode="381" />
+        <item name="Seychelles" code="sc" phoneCode="248" />
+        <item name="Sierra Leone" code="sl" phoneCode="232" />
+        <item name="Singapore" code="sg" phoneCode="65" />
+        <item name="Slovakia" code="sk" phoneCode="421" />
+        <item name="Slovenia" code="si" phoneCode="386" />
+        <item name="Solomon Islands" code="sb" phoneCode="677" />
+        <item name="Somalia" code="so" phoneCode="252" />
+        <item name="South Africa" code="za" phoneCode="27" />
+        <item name="Korea, Republic Of" code="kr" phoneCode="82" />
+        <item name="Spain" code="es" phoneCode="34" />
+        <item name="Sri Lanka" code="lk" phoneCode="94" />
+        <item name="Saint Helena, Ascension And Tristan Da Cunha" code="sh" phoneCode="290" />
+        <item name="Saint Pierre And Miquelon" code="pm" phoneCode="508" />
+        <item name="Sudan" code="sd" phoneCode="249" />
+        <item name="Suriname" code="sr" phoneCode="597" />
+        <item name="Swaziland" code="sz" phoneCode="268" />
+        <item name="Sweden" code="se" phoneCode="46" />
+        <item name="Switzerland" code="ch" phoneCode="41" />
+        <item name="Syrian Arab Republic" code="sy" phoneCode="963" />
+        <item name="Taiwan, Province Of China" code="tw" phoneCode="886" />
+        <item name="Tajikistan" code="tj" phoneCode="992" />
+        <item name="Tanzania, United Republic Of" code="tz" phoneCode="255" />
+        <item name="Thailand" code="th" phoneCode="66" />
+        <item name="Togo" code="tg" phoneCode="228" />
+        <item name="Tokelau" code="tk" phoneCode="690" />
+        <item name="Tonga" code="to" phoneCode="676" />
+        <item name="Tunisia" code="tn" phoneCode="216" />
+        <item name="Turkey" code="tr" phoneCode="90" />
+        <item name="Turkmenistan" code="tm" phoneCode="993" />
+        <item name="Tuvalu" code="tv" phoneCode="688" />
+        <item name="United Arab Emirates" code="ae" phoneCode="971" />
+        <item name="Uganda" code="ug" phoneCode="256" />
+        <item name="United Kingdom" code="gb" phoneCode="44" />
+        <item name="Ukraine" code="ua" phoneCode="380" />
+        <item name="Uruguay" code="uy" phoneCode="598" />
+        <item name="United States" code="us" phoneCode="1" />
+        <item name="Uzbekistan" code="uz" phoneCode="998" />
+        <item name="Vanuatu" code="vu" phoneCode="678" />
+        <item name="Holy See (vatican City State)" code="va" phoneCode="39" />
+        <item name="Venezuela, Bolivarian Republic Of" code="ve" phoneCode="58" />
+        <item name="Viet Nam" code="vn" phoneCode="84" />
+        <item name="Wallis And Futuna" code="wf" phoneCode="681" />
+        <item name="Yemen" code="ye" phoneCode="967" />
+        <item name="Zambia" code="zm" phoneCode="260" />
+        <item name="Zimbabwe" code="zw" phoneCode="263" />
+     </string-array>
+
+</resources>
