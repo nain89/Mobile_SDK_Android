@@ -1,11 +1,15 @@
-MOLPay Mobile SDK 4.0.5 for Android
+MOLPay Mobile SDK 4.0.6 for Android
 =================================
 
-Latest updates on 2014/08/14
+Latest update 2014/09/08
+
+- editing the SDK fields can be enabled by setting the debug param to "true" in the app which is calling the MOLPay SDK
+
+Updates on 2014/08/14
 
 - debugging mode can be enabled by setting the debug param to "true" in the app which is calling the MOLPay SDK . 
 
-updates on 2014/07/31
+Updates on 2014/07/31
 
 - Bug fixes
 
