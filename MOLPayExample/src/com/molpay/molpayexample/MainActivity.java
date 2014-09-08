@@ -26,11 +26,11 @@ public class MainActivity extends Activity {
 		
 		Intent intent = new Intent(MainActivity.this,MOLPayActivity.class);
 		Bundle b = new Bundle();
-		b.putString("MerchantId", "MOLPay_merchant_ID");
-		b.putString("AppName", "merchant_App_name");
-		b.putString("VerifyKey", "1axz05ff2a818f665a57f9eca6bBe966");
-		b.putString("Username", "api_user_merchantA");
-		b.putString("Password", "api_pass_merchantA");
+		b.putString("MerchantId", "molpaydebug");
+		b.putString("AppName", "wilwe_makan2");
+		b.putString("VerifyKey", "86e9772fc254b73de1a1bb6cfa24e3ac");
+		b.putString("Username", "molpayapi");
+		b.putString("Password", "*M0Lp4y4p1!*");
 
 		Random r = new Random();
 		int i1 = r.nextInt(500000 - 1) + 1;
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
 		b.putString("Country", "MY");
 		b.putFloat("Amount", 1.1f);
 		b.putBoolean("debug", false);//Make this true to enable debugging
-		 
+		b.putBoolean("editable", false);//Make this true to make the sdk fields editable  
 		intent.putExtras(b);
 		startActivityForResult(intent, REQUEST_CODE);
 

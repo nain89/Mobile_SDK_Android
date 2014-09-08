@@ -54,7 +54,10 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:paddingTop="10dp" >
+                android:paddingTop="10dp" 
+                android:descendantFocusability="beforeDescendants"
+  android:focusableInTouchMode="true"
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -120,8 +123,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_marginTop="5dp"
                     android:background="#C0C0C0" />
-
-                <TextView
+                <EditText
                     android:id="@+id/txt_name"
                     android:layout_width="275dp"
                     android:layout_height="wrap_content"
@@ -129,63 +131,46 @@
                     android:layout_alignRight="@+id/txt_amt"
                     android:layout_below="@+id/txt_amt"
                     android:layout_weight="1"
-                    android:text="NAME"
+                    android:hint="NAME"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#c9c9c9"
+                    android:textColor="#565656"
                     android:textStyle="bold" />
+               
 
-                <View
-                    android:id="@+id/View03"
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dip"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#C0C0C0" />
+                 
 
-                <TextView
+                <EditText
                     android:id="@+id/txt_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignLeft="@+id/txt_name"
                     android:layout_alignRight="@+id/txt_name"
                     android:layout_below="@+id/txt_name"
-                    android:text="EMAIL"
+                    android:hint="EMAIL"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#c9c9c9"
+                   android:textColor="#565656"
                     android:textStyle="bold" />
 
-                <View
-                    android:id="@+id/View04"
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dip"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#C0C0C0" />
+                
 
-                <TextView
+                <EditText
                     android:id="@+id/txt_mobilno"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignLeft="@+id/txt_email"
                     android:layout_below="@+id/txt_email"
-                    android:text="MOBILE NUMBERS"
+                    android:hint="MOBILE NUMBER"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#c9c9c9"
+                    android:textColor="#565656"
                     android:textStyle="bold" />
 
-                <View
-                    android:id="@+id/View05"
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dip"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#C0C0C0" />
+             
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
 
-                    <TextView
+                    <EditText
                         android:id="@+id/txt_details"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -193,9 +178,9 @@
                         android:ellipsize="end"
                         android:maxLines="1"
                         android:singleLine="true"
-                        android:text="DETAILS"
+                        android:hint="DETAILS"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="#c9c9c9"
+                        android:textColor="#565656"
                         android:textStyle="bold" />
 
                     <Button
@@ -207,14 +192,7 @@
                         android:background="@drawable/pen_edit" />
                 </RelativeLayout>
 
-                <View
-                    android:id="@+id/view1"
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dip"
-                    android:layout_centerVertical="true"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#C0C0C0" />
+               
 
                 <RelativeLayout
                     android:id="@+id/li_addcc"
