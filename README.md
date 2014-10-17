@@ -1,4 +1,4 @@
-MOLPay Mobile SDK 4.0.6 for Android
+MOLPay Mobile SDK 4.0.7 for Android
 =================================
 Latest update 2014/10/17
 
