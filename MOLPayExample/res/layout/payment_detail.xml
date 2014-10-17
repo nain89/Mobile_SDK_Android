@@ -134,11 +134,9 @@
                     android:hint="NAME"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#565656"
+                    android:textColorHint="#C0C0C0"
                     android:textStyle="bold" />
                
-
-                 
-
                 <EditText
                     android:id="@+id/txt_email"
                     android:layout_width="match_parent"
@@ -147,11 +145,11 @@
                     android:layout_alignRight="@+id/txt_name"
                     android:layout_below="@+id/txt_name"
                     android:hint="EMAIL"
+                    android:inputType="textWebEmailAddress"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                   android:textColor="#565656"
+                    android:textColor="#565656"
+                    android:textColorHint="#C0C0C0"
                     android:textStyle="bold" />
-
-                
 
                 <EditText
                     android:id="@+id/txt_mobilno"
@@ -160,11 +158,11 @@
                     android:layout_alignLeft="@+id/txt_email"
                     android:layout_below="@+id/txt_email"
                     android:hint="MOBILE NUMBER"
+                    android:inputType="phone"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#565656"
+                    android:textColorHint="#C0C0C0"
                     android:textStyle="bold" />
-
-             
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -181,6 +179,7 @@
                         android:hint="DETAILS"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="#565656"
+                        android:textColorHint="#C0C0C0"
                         android:textStyle="bold" />
 
                     <Button
