@@ -1,5 +1,8 @@
 MOLPay Mobile SDK 4.0.6 for Android
 =================================
+Latest update 2014/10/17
+
+-  Merchant can now pass empty name,email and mobile to the sdk if editable is true .
 
 Latest update 2014/09/08
 
