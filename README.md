@@ -1,5 +1,9 @@
 MOLPay Mobile SDK 4.0.7 for Android
 =================================
+Latest update 2014/10/21
+
+-  The SDK is returning the bill info to the merchant app after the transaction is completed .
+
 Latest update 2014/10/17
 
 -  Merchant can now pass empty name,email and mobile to the sdk if editable is true .
