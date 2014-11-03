@@ -70,20 +70,20 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(MainActivity.this,MOLPayActivity.class);
 				Bundle b = new Bundle();
-				b.putString("MerchantId", "molpaymerchant");
-				b.putString("AppName", "wilwe_makan2");
-				b.putString("VerifyKey", "501c4f508cf1c3f486f4f5c820591f41");
-				b.putString("Username", "molpayapi");
-				b.putString("Password", "*M0Lp4y4p1!*");
+				b.putString("MerchantId", "MOLPay_merchant_ID");
+		     		b.putString("AppName", "merchant_App_name");
+				b.putString("VerifyKey", "1axz05ff2a818f665a57f9eca6bBe966");
+				b.putString("Username", "api_user_merchantA");
+				b.putString("Password", "api_pass_merchantA");
 
 				Random r = new Random();
 				int i1 = r.nextInt(500000 - 1) + 1;
 				b.putString("OrderId", "GPAA" + String.valueOf(i1));
-				
-				b.putString("BillName", "Arif Jusoh");
-				b.putString("BillDesc", "Buying a fancy bag ");
-				b.putString("BillMobile", "60129324811");
-				b.putString("BillEmail", "arifjusoh@molpay.com");
+
+				b.putString("BillName", "Buyer Name");
+				b.putString("BillDesc", "Purchase of 5 pcs of survivor kits");
+				b.putString("BillMobile", "01811667788");
+				b.putString("BillEmail", "user@email.com");
 				b.putString("Channel", "multi");
 				b.putString("Currency", "MYR");
 				b.putString("Country", "MY");
