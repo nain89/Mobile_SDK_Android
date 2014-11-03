@@ -1,5 +1,10 @@
-MOLPay Mobile SDK 4.0.7 for Android
+MOLPay Mobile SDK 4.0.9 for Android
 =================================
+Latest update 2014/11/3
+
+-  Fixed returning null to merchant app bug .
+-  New UI for the android molpay SDK example 
+
 Latest update 2014/10/21
 
 -  The SDK is returning the bill info to the merchant app after the transaction is completed .
