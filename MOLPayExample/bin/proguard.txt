@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:20
+-keep class com.molpay.molpayexample.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.molpay.molpaylib.MOLPayActivity { <init>(...); }
+

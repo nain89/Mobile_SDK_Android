@@ -13,8 +13,12 @@ public final class R {
         public static final int shake=0x7f040001;
     }
     public static final class array {
-        public static final int date_month=0x7f050000;
-        public static final int date_year=0x7f050001;
+        public static final int c=0x7f050000;
+        public static final int countries=0x7f050005;
+        public static final int country=0x7f050004;
+        public static final int date_month=0x7f050001;
+        public static final int date_year=0x7f050002;
+        public static final int payment_options=0x7f050003;
     }
     public static final class attr {
     }
@@ -25,74 +29,94 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
+        public static final int activity_horizontal_margin=0x7f080000;
+        public static final int activity_vertical_margin=0x7f080001;
     }
     public static final class drawable {
         public static final int addcc=0x7f020000;
         public static final int back_arrow=0x7f020001;
-        public static final int bgshape=0x7f020002;
-        public static final int blank=0x7f020003;
-        public static final int btn_dropdown_big=0x7f020004;
-        public static final int btn_pay=0x7f020005;
-        public static final int buttonshape=0x7f020006;
-        public static final int buttonshapedisable=0x7f020007;
-        public static final int buttonshapepressed=0x7f020008;
-        public static final int ccard=0x7f020009;
-        public static final int dropdown=0x7f02000a;
-        public static final int edit_text=0x7f02000b;
-        public static final int ic_launcher=0x7f02000c;
-        public static final int logo_molpay=0x7f02000d;
-        public static final int mastercard=0x7f02000e;
-        public static final int molpay_logo=0x7f02000f;
-        public static final int paymentopt=0x7f020010;
-        public static final int pen_edit=0x7f020011;
-        public static final int spinner=0x7f020012;
-        public static final int visa=0x7f020013;
+        public static final int bag=0x7f020002;
+        public static final int bgshape=0x7f020003;
+        public static final int blank=0x7f020004;
+        public static final int btn_dropdown_big=0x7f020005;
+        public static final int btn_pay=0x7f020006;
+        public static final int buttonshape=0x7f020007;
+        public static final int buttonshapedisable=0x7f020008;
+        public static final int buttonshapepressed=0x7f020009;
+        public static final int ccard=0x7f02000a;
+        public static final int dropdown=0x7f02000b;
+        public static final int edit_text=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int logo_molpay=0x7f02000e;
+        public static final int mastercard=0x7f02000f;
+        public static final int molpay_logo=0x7f020010;
+        public static final int paymentopt=0x7f020011;
+        public static final int pen_edit=0x7f020012;
+        public static final int spinner=0x7f020013;
+        public static final int visa=0x7f020014;
     }
     public static final class id {
-        public static final int TextView04=0x7f0a0026;
-        public static final int View02=0x7f0a0009;
-        public static final int View03=0x7f0a000c;
-        public static final int View04=0x7f0a000f;
-        public static final int View05=0x7f0a0012;
-        public static final int action_settings=0x7f0a0029;
-        public static final int btn_back=0x7f0a0018;
-        public static final int btn_more=0x7f0a0023;
-        public static final int btn_pay=0x7f0a0016;
-        public static final int edt_bankName=0x7f0a001c;
-        public static final int edt_cardNo=0x7f0a000a;
-        public static final int edt_cvv=0x7f0a000d;
-        public static final int frag=0x7f0a0001;
-        public static final int imageView1=0x7f0a0017;
-        public static final int imageView2=0x7f0a0014;
-        public static final int imgChannel=0x7f0a0028;
-        public static final int img_bankselect=0x7f0a0025;
-        public static final int img_cardType=0x7f0a000b;
-        public static final int img_payment=0x7f0a0027;
-        public static final int li_addcc=0x7f0a0013;
-        public static final int li_cc=0x7f0a0024;
-        public static final int orderId=0x7f0a0004;
-        public static final int paymentOpt=0x7f0a001b;
-        public static final int pgBar=0x7f0a001d;
-        public static final int rl_creditCard=0x7f0a001f;
-        public static final int scrollView1=0x7f0a0002;
-        public static final int spinner_month=0x7f0a0019;
-        public static final int spinner_year=0x7f0a001a;
-        public static final int textView1=0x7f0a0015;
-        public static final int topbar=0x7f0a0003;
-        public static final int txt_amt=0x7f0a0008;
-        public static final int txt_bankName=0x7f0a0010;
-        public static final int txt_countryCode=0x7f0a0011;
-        public static final int txt_currency=0x7f0a0007;
-        public static final int txt_details=0x7f0a0022;
-        public static final int txt_email=0x7f0a0020;
-        public static final int txt_expdate=0x7f0a000e;
-        public static final int txt_mobilno=0x7f0a0021;
-        public static final int txt_name=0x7f0a001e;
-        public static final int txt_orderId=0x7f0a0005;
-        public static final int txtv_result=0x7f0a0000;
-        public static final int view1=0x7f0a0006;
+        public static final int TextView04=0x7f0a0038;
+        public static final int View02=0x7f0a001b;
+        public static final int View03=0x7f0a001e;
+        public static final int View04=0x7f0a0021;
+        public static final int View05=0x7f0a0024;
+        public static final int action_settings=0x7f0a003b;
+        public static final int amt=0x7f0a000d;
+        public static final int amtTxt=0x7f0a000e;
+        public static final int btn_back=0x7f0a002a;
+        public static final int btn_more=0x7f0a0035;
+        public static final int btn_pay=0x7f0a0028;
+        public static final int desc=0x7f0a000b;
+        public static final int descTxt=0x7f0a000c;
+        public static final int edt_bankName=0x7f0a002e;
+        public static final int edt_cardNo=0x7f0a001c;
+        public static final int edt_cvv=0x7f0a001f;
+        public static final int email=0x7f0a0009;
+        public static final int emailTxt=0x7f0a000a;
+        public static final int frag=0x7f0a0013;
+        public static final int imageView1=0x7f0a0029;
+        public static final int imageView2=0x7f0a0026;
+        public static final int imgChannel=0x7f0a003a;
+        public static final int img_bankselect=0x7f0a0037;
+        public static final int img_cardType=0x7f0a001d;
+        public static final int img_payment=0x7f0a0039;
+        public static final int lay=0x7f0a0000;
+        public static final int li_addcc=0x7f0a0025;
+        public static final int li_cc=0x7f0a0036;
+        public static final int main=0x7f0a0001;
+        public static final int menu_settings=0x7f0a003c;
+        public static final int mobile=0x7f0a0007;
+        public static final int mobileTxt=0x7f0a0008;
+        public static final int name=0x7f0a0005;
+        public static final int nameTxt=0x7f0a0006;
+        public static final int orderId=0x7f0a0016;
+        public static final int pay=0x7f0a0002;
+        public static final int paymentOpt=0x7f0a002d;
+        public static final int pgBar=0x7f0a002f;
+        public static final int result=0x7f0a0003;
+        public static final int rl_creditCard=0x7f0a0031;
+        public static final int scrollView1=0x7f0a0014;
+        public static final int spinner_month=0x7f0a002b;
+        public static final int spinner_year=0x7f0a002c;
+        public static final int stat=0x7f0a0011;
+        public static final int statTxt=0x7f0a0012;
+        public static final int textView1=0x7f0a0027;
+        public static final int title=0x7f0a0004;
+        public static final int topbar=0x7f0a0015;
+        public static final int trans=0x7f0a000f;
+        public static final int transTxt=0x7f0a0010;
+        public static final int txt_amt=0x7f0a001a;
+        public static final int txt_bankName=0x7f0a0022;
+        public static final int txt_countryCode=0x7f0a0023;
+        public static final int txt_currency=0x7f0a0019;
+        public static final int txt_details=0x7f0a0034;
+        public static final int txt_email=0x7f0a0032;
+        public static final int txt_expdate=0x7f0a0020;
+        public static final int txt_mobilno=0x7f0a0033;
+        public static final int txt_name=0x7f0a0030;
+        public static final int txt_orderId=0x7f0a0017;
+        public static final int view1=0x7f0a0018;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -105,11 +129,18 @@ public final class R {
     }
     public static final class menu {
         public static final int main=0x7f090000;
+        public static final int web_view=0x7f090001;
     }
     public static final class string {
-        public static final int action_settings=0x7f070001;
-        public static final int app_name=0x7f070000;
-        public static final int hello_world=0x7f070002;
+        public static final int action_settings=0x7f060008;
+        public static final int address=0x7f060005;
+        public static final int agree=0x7f060006;
+        public static final int app_name=0x7f060000;
+        public static final int copyright=0x7f060004;
+        public static final int hello_world=0x7f060001;
+        public static final int image=0x7f060003;
+        public static final int menu_settings=0x7f060002;
+        public static final int netbder=0x7f060007;
     }
     public static final class style {
         /** 
@@ -132,11 +163,37 @@ public final class R {
         res/values-v11/styles.xml on API 14+ devices.
     
  API 14 theme customizations can go here. 
+
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
+
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    
+ API 11 theme customizations can go here. 
+
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    
+ API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f070004;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
+ Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
+        public static final int AppTheme=0x7f070005;
+        public static final int HEADER_BACK=0x7f070002;
+        public static final int HEADER_BAR=0x7f070000;
+        public static final int HEADER_DONE=0x7f070003;
+        public static final int HEADER_TITLE=0x7f070001;
     }
 }
