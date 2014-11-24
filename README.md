@@ -1,5 +1,9 @@
-MOLPay Mobile SDK 4.0.9 for Android
+MOLPay Mobile SDK 4.0.10 for Android
 =================================
+Latest update 2014/11/24
+
+-SDK now allow grabing the transaction details using the orderId . 
+
 Latest update 2014/11/3
 
 -  Fixed returning null to merchant app bug .
