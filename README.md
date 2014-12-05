@@ -1,5 +1,9 @@
-MOLPay Mobile SDK 4.0.10 for Android
+MOLPay Mobile SDK 4.1.10 for Android
 =================================
+Latest update 2014/12/05
+
+-This update fixes the cimbclicks after transaction bug .
+
 Latest update 2014/11/24
 
 -SDK now allows grabing the transaction details using the orderId . 
