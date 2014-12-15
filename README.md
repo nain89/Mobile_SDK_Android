@@ -3,6 +3,7 @@ MOLPay Mobile SDK 4.1.1 for Android
 Latest update 2014/12/15
 
 -Return extra info from the sdk such as PayDate,Currency and OrderId .
+
 -Notifying the user when "Do not keep activities open" is turned on .
 
 Latest update 2014/12/05
