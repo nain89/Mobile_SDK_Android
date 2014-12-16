@@ -1,5 +1,9 @@
-MOLPay Mobile SDK 4.1.1 for Android
+MOLPay Mobile SDK 4.1.2 for Android
 =================================
+Latest update 2014/12/16
+
+-The SDK now can support escrow .
+ 
 Latest update 2014/12/15
 
 -Return extra info from the sdk such as PayDate,Currency and OrderId .
