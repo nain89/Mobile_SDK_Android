@@ -7,7 +7,7 @@ MOLPay Mobile SDK 4.2.0 for Android
 
 Latest update 2015/01/22
 
--MOLWallet has been added as a payment channel under MOLPay
+-MOLWallet has been added as a payment channel under MOLPay.
 
 Latest update 2014/12/16
 
