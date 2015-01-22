@@ -6,6 +6,7 @@ MOLPay Mobile SDK 4.2.0 for Android
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699803/6d662fac-9a6b-11e4-92f4-1972e1edcc1c.jpg height=300>
 
 Latest update 2015/01/22
+
 -MOLWallet has been added as a payment channel under MOLPay
 
 Latest update 2014/12/16
