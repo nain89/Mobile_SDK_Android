@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(MainActivity.this,MOLPayActivity.class);
 				Bundle b = new Bundle();
-				
+				//
 				b.putString("MerchantId", "MOLPay_merchant_ID");
 		     		b.putString("AppName", "merchant_App_name");
 				b.putString("VerifyKey", "1axz05ff2a818f665a57f9eca6bBe966");
