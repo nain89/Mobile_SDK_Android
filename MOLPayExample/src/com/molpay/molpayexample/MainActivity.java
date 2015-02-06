@@ -1,10 +1,13 @@
 package com.molpay.molpayexample;
 
+import java.util.HashMap;
 import java.util.Random;
 
 import com.molpay.molpaylib.MOLPayActivity;
 import com.molpay.molpaylib.settings.MerchantInfo;
  
+
+
 
 
 
@@ -38,6 +41,7 @@ public class MainActivity extends Activity {
 	TextView amt;
 	TextView stat;
 	LinearLayout main;
+	private HashMap<String, String> map;
 	
 	
 	@Override
@@ -70,6 +74,7 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(MainActivity.this,MOLPayActivity.class);
 				Bundle b = new Bundle();
+				
 				b.putString("MerchantId", "MOLPay_merchant_ID");
 		     		b.putString("AppName", "merchant_App_name");
 				b.putString("VerifyKey", "1axz05ff2a818f665a57f9eca6bBe966");
@@ -100,6 +105,7 @@ public class MainActivity extends Activity {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 

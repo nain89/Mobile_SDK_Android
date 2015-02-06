@@ -28,6 +28,15 @@
             android:layout_alignParentRight="true"
             android:layout_centerHorizontal="true"
             android:visibility="gone" />
+         <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_arrow" />
     </RelativeLayout>
 
     <ScrollView
@@ -123,6 +132,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_marginTop="5dp"
                     android:background="#C0C0C0" />
+
                 <EditText
                     android:id="@+id/txt_name"
                     android:layout_width="275dp"
@@ -136,7 +146,7 @@
                     android:textColor="#565656"
                     android:textColorHint="#C0C0C0"
                     android:textStyle="bold" />
-               
+
                 <EditText
                     android:id="@+id/txt_email"
                     android:layout_width="match_parent"
@@ -145,7 +155,6 @@
                     android:layout_alignRight="@+id/txt_name"
                     android:layout_below="@+id/txt_name"
                     android:hint="EMAIL"
-                    android:inputType="textWebEmailAddress"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#565656"
                     android:textColorHint="#C0C0C0"
@@ -158,7 +167,6 @@
                     android:layout_alignLeft="@+id/txt_email"
                     android:layout_below="@+id/txt_email"
                     android:hint="MOBILE NUMBER"
-                    android:inputType="phone"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#565656"
                     android:textColorHint="#C0C0C0"
@@ -174,9 +182,9 @@
                         android:layout_height="wrap_content"
                         android:layout_toLeftOf="@+id/btn_more"
                         android:ellipsize="end"
+                        android:hint="DETAILS"
                         android:maxLines="1"
                         android:singleLine="true"
-                        android:hint="DETAILS"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="#565656"
                         android:textColorHint="#C0C0C0"

@@ -13,12 +13,8 @@ public final class R {
         public static final int shake=0x7f040001;
     }
     public static final class array {
-        public static final int c=0x7f050000;
-        public static final int countries=0x7f050005;
-        public static final int country=0x7f050004;
-        public static final int date_month=0x7f050001;
-        public static final int date_year=0x7f050002;
-        public static final int payment_options=0x7f050003;
+        public static final int date_month=0x7f050000;
+        public static final int date_year=0x7f050001;
     }
     public static final class attr {
     }
@@ -29,8 +25,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f080000;
-        public static final int activity_vertical_margin=0x7f080001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int addcc=0x7f020000;
@@ -85,7 +81,6 @@ public final class R {
         public static final int li_addcc=0x7f0a0025;
         public static final int li_cc=0x7f0a0036;
         public static final int main=0x7f0a0001;
-        public static final int menu_settings=0x7f0a003c;
         public static final int mobile=0x7f0a0007;
         public static final int mobileTxt=0x7f0a0008;
         public static final int name=0x7f0a0005;
@@ -129,18 +124,11 @@ public final class R {
     }
     public static final class menu {
         public static final int main=0x7f090000;
-        public static final int web_view=0x7f090001;
     }
     public static final class string {
-        public static final int action_settings=0x7f060008;
-        public static final int address=0x7f060005;
-        public static final int agree=0x7f060006;
-        public static final int app_name=0x7f060000;
-        public static final int copyright=0x7f060004;
-        public static final int hello_world=0x7f060001;
-        public static final int image=0x7f060003;
-        public static final int menu_settings=0x7f060002;
-        public static final int netbder=0x7f060007;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int hello_world=0x7f070002;
     }
     public static final class style {
         /** 
@@ -163,37 +151,11 @@ public final class R {
         res/values-v11/styles.xml on API 14+ devices.
     
  API 14 theme customizations can go here. 
-
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070004;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
- Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070005;
-        public static final int HEADER_BACK=0x7f070002;
-        public static final int HEADER_BAR=0x7f070000;
-        public static final int HEADER_DONE=0x7f070003;
-        public static final int HEADER_TITLE=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }
